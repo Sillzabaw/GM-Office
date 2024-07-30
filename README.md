@@ -18,17 +18,31 @@
 
 With GM-Office, managing your simulated league becomes a breeze. Enjoy a powerful and flexible web solution, based on PHP and MySQL, to organize, track, and optimize your ice hockey simulation experience.
 
-## Getting Started
-
-To get started with GM-Office, please follow the instructions in the [installation guide](link-to-installation-guide) and refer to the [documentation](link-to-documentation) for detailed information on setting up and using the application.
-
-## Contributing
-
-We welcome contributions to GM-Office! If you’d like to help improve the project, please refer to the [contributing guidelines](link-to-contributing-guidelines) and check out our [open issues](link-to-open-issues).
-
 ## License
 
-This project is licensed under the [MIT License](link-to-license).
+This project is licensed under the [MIT License]([link-to-license](https://choosealicense.com/licenses/mit/)).
+
+MIT License
+
+Copyright (c) [2024-To This Date] [Guillaume Jalbert]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 ---
 
