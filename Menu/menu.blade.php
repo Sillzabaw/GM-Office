@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="https://lhs-pro.net/public/global.css">
 <?php
-$bdd = new PDO('mysql:host=127.0.0.1;dbname=u725857340_kmLwY;charset=utf8', 'u725857340_CosU2', 'Rjj8sm4njv',
+$bdd = new PDO('mysql:host=127.0.0.1;dbname=dbname;charset=utf8', 'username', 'password',
     array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
 
 $config_info=$bdd->query('SELECT * FROM config_league');
@@ -14,15 +14,11 @@ try {
 }
 ?>
 
-        <!-- Development -->
+<!-- Development -->
 <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
 <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
-
-<!-- Production -->
 <script src="https://unpkg.com/@popperjs/core@2"></script>
 <script src="https://unpkg.com/tippy.js@6"></script>
-
-<!-- datatable -->
 <link href="https://cdn.datatables.net/2.0.3/css/dataTables.bootstrap5.min.css" rel="stylesheet">
 <script src="https://cdn.datatables.net/2.0.3/js/dataTables.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
@@ -57,7 +53,7 @@ try {
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="/gm_list"><i class="fa-solid fa-user-group"></i> Directeur Généraux</a></li>
-                                    <li><a class="dropdown-item" href="#">GM Office</a></li>
+                                    <li><a class="dropdown-item" href="https://github.com/Sillzabaw/GM-Office/" target=”_blank”><i class="fa-brands fa-github"></i> GM Office</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
@@ -76,10 +72,10 @@ try {
                                     <i class="fa-solid fa-newspaper"></i> Média
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Point de presse</a></li>
-                                    <li><a class="dropdown-item" href="#">Journaux</a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-microphone-stand"></i> Point de presse</a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-newspaper"></i> Journaux</a></li>
                                     <li><a class="dropdown-item" href="/twitter"><i class="fa-brands fa-x-twitter"></i> Media</a></li>
-                                    <li><a class="dropdown-item" href="#">Trophée</a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-trophy"></i> Trophée</a></li>
                                 </ul>
                             </li>
 
@@ -147,9 +143,9 @@ try {
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="/calendar_nhl"><i class="fa-solid fa-calendar-days"></i> Calendrier NHL</a></li>
                                     <li><a class="dropdown-item" href="/calendar_ahl"><i class="fa-solid fa-calendar-days"></i> Calendrier AHL</a></li>
-                                    <li><a class="dropdown-item" href="#">Championnat junior</a></li>
-                                    <li><a class="dropdown-item" href="#">Championnat du monde</a></li>
-                                    <li><a class="dropdown-item" href="#">Match des étoiles</a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-chart-simple"></i> Championnat junior</a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-chart-simple"></i> Championnat du monde</a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-star"></i> Match des étoiles</a></li>
                                 </ul>
                             </li>
 
@@ -178,7 +174,7 @@ try {
                                     <li><a class="dropdown-item" href="/payroll"><i class="fa-solid fa-dollar-sign"></i> Masse Salariale</a></li>
                                     <li><a class="dropdown-item" href="/buyout"><i class="fa-solid fa-file-invoice-dollar"></i> Rachats</a></li>
                                     <li><a class="dropdown-item" href="/retained"><i class="fa-solid fa-filter-circle-dollar"></i> Retenue Salariale</a></li>
-                                    <li><a class="dropdown-item" href="#">Sanctions</a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-triangle-exclamation"></i> Sanctions</a></li>
                                 </ul>
                             </li>
 
@@ -190,7 +186,7 @@ try {
                                     <li><a class="dropdown-item" href="/draft_pick"><i class="fa-solid fa-arrow-down-1-9"></i> Choix Disponible</a></li>
                                     <li><a class="dropdown-item" href="/draft"><i class="fa-solid fa-chalkboard-user"></i> Repêchage <?=$config['draft_years']?></a></li>
                                     <li><a class="dropdown-item" href="/draft_central"><i class="fa-solid fa-user-graduate"></i> Centrale de repêchage</a></li>
-                                    <li><a class="dropdown-item" href="#">Future jeunes</a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="fa-regular fa-user-graduate"></i> Future jeunes</a></li>
                                 </ul>
                             </li>
 
@@ -199,11 +195,11 @@ try {
                                     <i class="fa-solid fa-timeline-arrow"></i> Historiques
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Historiques équipes</a></li>
-                                    <li><a class="dropdown-item" href="#">Historiques éffectifs</a></li>
-                                    <li><a class="dropdown-item" href="#">Historiques statistiques saison</a></li>
-                                    <li><a class="dropdown-item" href="#">Historiques statistiques série</a></li>
-                                    <li><a class="dropdown-item" href="#">Historique repêchages</a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-timeline"></i> Historiques équipes</a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-timeline"></i> Historiques éffectifs</a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-timeline"></i> Historiques statistiques saison</a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-timeline"></i> Historiques statistiques série</a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-timeline"></i> Historique repêchages</a></li>
                                 </ul>
                             </li>
 
